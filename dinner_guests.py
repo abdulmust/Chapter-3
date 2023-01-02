@@ -1,2 +1,2 @@
->>> guest_list = ['mom', 'dad', 'brother', 'sister']
->>> len(guest_list)
+guest_list = ['mom', 'dad', 'brother', 'sister']
+print(len(guest_list))

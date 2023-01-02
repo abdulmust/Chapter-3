@@ -1,13 +1,8 @@
-guest_list = ['mom', 'dad', 'brother', 'sister']
-guest_list.insert(0, 'cousin')
-guest_list.insert(4, 'aunty')
-guest_list.append('nephew')
-print(guest_list)
-print(f"Sorry for this late notice but a bigger dinner table has been found")
-print(f"I invite you to have dinner with me {guest_list[0]}")
-print(f"I invite you to have dinner with me {guest_list[1]}")
-print(f"I invite you to have dinner with me {guest_list[2]}")
-print(f"I invite you to have dinner with me {guest_list[3]}")
-print(f"I invite you to have dinner with me {guest_list[4]}")
-print(f"I invite you to have dinner with me {guest_list[5]}")
-print(f"I invite you to have dinner with me {guest_list[6]}")
+def family():
+    guests = ['mom', 'dad', 'brother', 'sister']
+    for guest in guests:
+        message = f"I invite you to have dinner with me {guest}."
+        print(message)
+
+if __name__ == "__main__":
+    family()    

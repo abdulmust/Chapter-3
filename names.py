@@ -1,6 +1,7 @@
-names = ['muhammad', 'abubakar', 'taopheeq', 'ridwan', 'marzooq']
-print(names[0])
-print(names[1])
-print(names[2])
-print(names[3])
-print(names[-1])
+def friends():
+    names = ['muhammad', 'abubakar', 'taopheeq', 'ridwan', 'marzooq']
+    for name in names:
+        print(name)
+    
+if __name__ == "__main__":
+    friends()  
